@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    driverClassName: com.microsoft.sqlserver.jdbc.SQLServerDriver
+    password: Microlab3
+    url: jdbc:sqlserver://localhost;databaseName=NotesV2Database;encrypt=false;trustServerCertificate=true
+    username: sa
+  jpa:
+    hibernate:
+      ddl-auto: create
+      dialect: org.hibernate.dialect.SQLServer2012Dialect
+    show-sql: true
